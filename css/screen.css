@@ -1,0 +1,28 @@
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #111;
+  padding: 24px, 24px, 0, 24px;
+}
+
+::selection {
+  background: #44c8f5;
+  color: white;
+}
+
+body {
+  max-width: 42em;
+  margin: 0 auto;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
